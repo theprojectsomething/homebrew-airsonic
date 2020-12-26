@@ -5,7 +5,7 @@ class Airsonic < Formula
   version "10.4.0"
   sha256 "0842a1fc4380cbe75e40dcb94e40332222b816514bd8ad250501d472210894d4"
 
-  depends_on "openjdk"
+  depends_on "openjdk@8"
   depends_on "ffmpeg" => ["with-fdk-aac"]
   depends_on "lame"
 
