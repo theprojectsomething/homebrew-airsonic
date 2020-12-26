@@ -2,7 +2,7 @@ class Airsonic < Formula
   desc "Free and Open Source media streaming server (fork of Subsonic and Libresonic)"
   homepage "https://airsonic.github.io/docs/"
   url "https://github.com/airsonic/airsonic/releases/download/v10.4.0/airsonic.war"
-  version "10.4.0"
+  version "10.4.1"
   sha256 "0842a1fc4380cbe75e40dcb94e40332222b816514bd8ad250501d472210894d4"
 
   depends_on "openjdk@8"
